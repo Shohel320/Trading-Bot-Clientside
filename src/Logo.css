@@ -1,0 +1,60 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand h1 {
+  margin: 0;
+  font-size: 1.45rem;
+  letter-spacing: 0.02em;
+}
+
+.tagline {
+  display: block;
+  font-size: 0.75rem;
+  color: #8b98a5;
+  margin-top: 2px;
+}
+
+.brand h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #ffffff;           /* আগে হালকা ধূসর থাকতে পারে */
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.45);
+}
+
+.tagline {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #b0bec5;           /* আগের #8b98a5 থেকে উজ্জ্বল */
+  margin-top: 3px;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brand h1 {
+  color: #f5f7fa;
+  -webkit-text-stroke: 0.2px rgba(255, 255, 255, 0.15);
+}
